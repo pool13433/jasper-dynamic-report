@@ -93,8 +93,8 @@ public class MainJasperDynamic {
 			report().setTemplate(addComponentTemplate())
 					.fields(field("image", String.class), 
 							field("barcode", String.class))
-					/*.columns(col.componentColumn("Image", image), col.column("Item", "item", type.stringType()),
-							col.componentColumn("Item", itemComponent))*/					
+					.columns(col.componentColumn("Image", image), col.column("Item", "item", type.stringType()),
+							col.componentColumn("Item", itemComponent))					
 					.title(addComponentTitle())
 					.pageFooter(cmp.pageXofY().setStyle(stl.style(CMPStyle.boldCenteredStyle).setTopBorder(stl.pen1Point())))
 					.setDataSource(createDataSource())

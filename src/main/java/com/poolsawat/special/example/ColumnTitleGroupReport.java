@@ -61,13 +61,11 @@ public class ColumnTitleGroupReport {
 					.setDataSource(createDataSource())
 					.show()
 					/*.toPdf(new FileOutputStream("/JasperReport/output/test_report"
-							+ new SimpleDateFormat("yyyyMMdd_Hms").format(new Date()) + ".pdf"))*/
+							+ new SimpleDateFormat("yyyyMMdd_Hms").format(new Date()) + ".pdf"))
 					.toXlsx(new FileOutputStream("/JasperReport/output/test_report"
-							+ new SimpleDateFormat("yyyyMMdd_Hms").format(new Date()) + ".xlsx"))		
+							+ new SimpleDateFormat("yyyyMMdd_Hms").format(new Date()) + ".xlsx"))*/		
 							;
 		} catch (DRException e) {
-			e.printStackTrace();
-		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
 	}

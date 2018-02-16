@@ -1,6 +1,7 @@
 {
   "report_title": "Test Genarate Report [ทดสอบสร้างรายงาน]",
   "report_sub_title": "Test Genarate Sub Report [ทดสอบสร้างรายงานย่อย]",
+  "report_id" : "",
   "meta_criteria": [
     [
       {
@@ -15,6 +16,11 @@
       }
     ],
     [
+      {
+        "text": "กทม",
+        "label": "จังหวัด",
+        "style": ""
+      },
       {
         "text": "กทม",
         "label": "จังหวัด",
@@ -49,7 +55,11 @@
               "childs": [
                 {
                   "text": "lavel14",
-                  "style": ""
+                  "style": {
+                    "head": "",
+                    "odd": "",
+                    "even": ""
+                  }
                 }
               ]
             },
@@ -58,7 +68,11 @@
               "childs": [
                 {
                   "text": "lavel14",
-                  "style": ""
+                  "style": {
+                    "head": "",
+                    "odd": "",
+                    "even": ""
+                  }
                 }
               ]
             }
@@ -73,11 +87,19 @@
               "childs": [
                 {
                   "text": "lavel14",
-                  "style": ""
+                  "style": {
+                    "head": "",
+                    "odd": "",
+                    "even": ""
+                  }
                 },
                 {
                   "text": "lavel24",
-                  "style": ""
+                  "style": {
+                    "head": "",
+                    "odd": "",
+                    "even": ""
+                  }
                 }
               ]
             },
@@ -86,7 +108,11 @@
               "childs": [
                 {
                   "text": "lavel14",
-                  "style": ""
+                  "style": {
+                    "head": "",
+                    "odd": "",
+                    "even": ""
+                  }
                 }
               ]
             }
