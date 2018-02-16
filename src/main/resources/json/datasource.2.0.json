@@ -1,0 +1,166 @@
+{
+  "report_title": "Test Genarate Report [ทดสอบสร้างรายงาน]",
+  "report_sub_title": "Test Genarate Sub Report [ทดสอบสร้างรายงานย่อย]",
+  "meta_criteria": [
+    [
+      {
+        "text": "กทม",
+        "label": "จังหวัด",
+        "style": ""
+      },
+      {
+        "text": "กทม",
+        "label": "จังหวัด",
+        "style": ""
+      }
+    ],
+    [
+      {
+        "text": "กทม",
+        "label": "จังหวัด",
+        "style": ""
+      },
+      {
+        "text": "กทม",
+        "label": "จังหวัด",
+        "style": ""
+      }
+    ]
+  ],
+  "report_options": {
+    "page_size": "A4",
+    "page_orientation": "landscape",
+    "page_margin": {
+      "top": 15,
+      "right": 45,
+      "bottom": 15,
+      "left": 45
+    }
+  },
+  "meta_header": [
+    {
+      "text": "lavel11",
+      "childs": [
+        {
+          "text": "lavel12",
+          "childs": [
+            {
+              "text": "lavel13",
+              "childs": [
+                {
+                  "text": "lavel14",
+                  "style": ""
+                }
+              ]
+            },
+            {
+              "text": "lavel23",
+              "childs": [
+                {
+                  "text": "lavel14",
+                  "style": ""
+                }
+              ]
+            }
+          ],
+          "style": ""
+        },
+        {
+          "text": "lavel22",
+          "childs": [
+            {
+              "text": "lavel13",
+              "childs": [
+                {
+                  "text": "lavel14",
+                  "style": ""
+                },
+                {
+                  "text": "lavel24",
+                  "style": ""
+                }
+              ]
+            },
+            {
+              "text": "lavel23",
+              "childs": [
+                {
+                  "text": "lavel14",
+                  "style": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "meta_data": [
+    [
+      {
+        "text": "สมชาย นิรนาม",
+        "style": ""
+      },
+      {
+        "text": "สมพร นิรนาม",
+        "style": ""
+      },
+      {
+        "text": "สมบูรณ์ นิรนาม",
+        "style": ""
+      },
+      {
+        "text": "สมทรง นิรนาม",
+        "style": ""
+      },
+      {
+        "text": "สมหญิง นิรนาม",
+        "style": ""
+      },
+      {
+        "text": "สมเสร็จ นิรนาม",
+        "style": ""
+      }
+    ],
+    [
+      {
+        "text": "สมชาย นิรนาม",
+        "style": ""
+      },
+      {
+        "text": "สมพร นิรนาม",
+        "style": ""
+      },
+      {
+        "text": "สมบูรณ์ นิรนาม",
+        "style": ""
+      },
+      {
+        "text": "สมทรง นิรนาม",
+        "style": ""
+      },
+      {
+        "text": "สมหญิง นิรนาม",
+        "style": ""
+      },
+      {
+        "text": "สมเสร็จ นิรนาม",
+        "style": ""
+      }
+    ]
+  ],
+  "meta_footer": {
+    "left": {
+      "text": "xxxxxxxxxxxxxxxxxxxxx",
+      "style": ""
+    },
+    "center": {
+      "text": "yyyyyyyyyyyyyyyyyyyyyy",
+      "style": ""
+    },
+    "right": {
+      "text": "zzzzzzzzzzzzzzzzzzzzz",
+      "style": ""
+    }
+  }
+}
